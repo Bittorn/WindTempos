@@ -5,21 +5,83 @@ html {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.zain-extralight {
+  font-family: "Zain", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.zain-light {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.zain-regular {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zain-bold {
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.zain-extrabold {
+  font-family: "Zain", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.zain-black {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.zain-light-italic {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.zain-regular-italic {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.funnel-display {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
   color: hsla(0, 0%, 100%, 0.84);
   text-align: center;
   font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
   text-shadow: 2px 2px 10px #1d1d1d;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+h1 {
+  font-size: 4rem;
+  padding-top: 2rem;
 }
 
-h1 {
-  padding-top: 2rem;
+a {
+  color: hsla(0, 0%, 100%, 0.84);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(0, 0%, 65%);
+  transition-duration: 0.15s;
 }
 
 img {
