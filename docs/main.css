@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap");
+
 html {
   background: #1d1d1d;
   background-image: url("public/background.webp");
@@ -87,3 +89,52 @@ a:hover {
 img {
   filter: drop-shadow(4px 4px 20px #1d1d1d);
 }
+
+.navbar {
+  height: 60px;
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 65px;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-sizing: border-box;
+  display: block;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  position: relative;
+  background-color: hsla(0, 0%, 35%, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(36, 36, 36, 0.6);
+}
+
+.navbar .logo {
+  width: 8rem;
+  padding-right: 2rem;
+}
+
+.navbar .logo img {
+  width: 8rem;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 4em;
+}
+
+.navbar ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.navbar ul li a {
+  padding: 0.25em 1em 0.25em 1em;
+}
+
