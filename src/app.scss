@@ -79,11 +79,11 @@ h1 {
 a {
 	color: hsla(0, 0%, 100%, 0.84);
 	text-decoration: none;
-}
 
-a:hover {
-	color: hsl(0, 0%, 65%);
-	transition-duration: 0.15s;
+	&:hover {
+		color: hsl(0, 0%, 65%);
+		transition-duration: 0.1s;
+	}
 }
 
 img {
@@ -111,29 +111,29 @@ img {
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px);
 	border: 1px solid rgba(36, 36, 36, 0.6);
-}
 
-.navbar .logo {
-	width: 8rem;
-	padding-right: 2rem;
-}
+	.logo {
+		width: 8rem;
+		padding-right: 2rem;
 
-.navbar .logo img {
-	width: 8rem;
-}
+		img {
+			width: 8rem;
+		}
+	}
 
-.navbar ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	margin-left: 4em;
-}
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		margin-left: 4em;
 
-.navbar ul li {
-	display: inline;
-	text-decoration: none;
-}
+		li {
+			display: inline;
+			text-decoration: none;
 
-.navbar ul li a {
-	padding: 0.25em 1em 0.25em 1em;
+			a {
+				padding: 0.25em 1em 0.25em 1em;
+			}
+		}
+	}
 }

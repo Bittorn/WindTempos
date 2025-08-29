@@ -1,6 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.ico';
-	import logo from '$lib/assets/logo-horizontal-invert.png';
+	import NavBar from '$lib/components/NavBar.svelte';
 	import '../app.scss';
 
 	let { children } = $props();
@@ -11,18 +11,7 @@
 	<title>Wind Tempos 🚧</title>
 </svelte:head>
 
-<nav class="navbar funnel-display">
-	<div class="logo">
-		<a href='/'><img src={logo} alt="Logo" /></a>
-	</div>
-	<ul>
-		<li><a href='/'>Home</a></li>
-		<li><a href='/about'>About</a></li>
-		<li><a href='/tows'>TOWS</a></li>
-		<li><a href='/projects'>Projects</a></li>
-		<li><a href='/contact'>Contact</a></li>
-	</ul>
-</nav>
+<NavBar />
 
 {@render children?.()}
 
