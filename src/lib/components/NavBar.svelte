@@ -1,10 +1,11 @@
 <script lang="ts">
     import logo from '$lib/assets/logo-horizontal-invert.png';
 	import NavLink from './NavLink.svelte';
+    import styles from './NavBar.module.scss';
 </script>
 
-<nav class="navbar funnel-display">
-	<div class="logo">
+<nav class="{styles.navbar} funnel-display">
+	<div class={styles.logo}>
 		<a href='/'><img src={logo} alt="Logo" /></a>
 	</div>
 	<ul>
