@@ -1,7 +1,7 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.ico';
 	import logo from '$lib/assets/logo-horizontal-invert.png';
-	import '../app.css';
+	import '../app.scss';
 
 	let { children } = $props();
 </script>
@@ -16,6 +16,7 @@
 		<a href='/'><img src={logo} alt="Logo" /></a>
 	</div>
 	<ul>
+		<li><a href='/'>Home</a></li>
 		<li><a href='/about'>About</a></li>
 		<li><a href='/tows'>TOWS</a></li>
 		<li><a href='/projects'>Projects</a></li>
