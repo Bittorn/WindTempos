@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
+$background-color: #1d1d1d;
+$font-color: hsla(0, 0%, 90%);
+$unselected-color: hsl(0, 0%, 65%);
+
 html {
-	background: #1d1d1d;
+	background: $background-color;
 	background-image: url('$lib/assets/background.webp');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -64,11 +68,19 @@ html {
 }
 
 body {
-	color: hsla(0, 0%, 100%, 0.84);
+	color: $font-color;
 	text-align: center;
 	font-family: 'Overpass', sans-serif;
 	font-optical-sizing: auto;
-	text-shadow: 2px 2px 10px #1d1d1d;
+	text-shadow: 2px 2px 10px $background-color;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
 }
 
 h1 {
@@ -77,15 +89,16 @@ h1 {
 }
 
 a {
-	color: hsla(0, 0%, 100%, 0.84);
+	color: $unselected-color;
 	text-decoration: none;
 
-	&:hover {
-		color: hsl(0, 0%, 65%);
+	&:hover,
+	&.current {
+		color: $font-color;
 		transition-duration: 0.1s;
 	}
 }
 
 img {
-	filter: drop-shadow(4px 4px 20px #1d1d1d);
+	filter: drop-shadow(4px 4px 20px $background-color);
 }
