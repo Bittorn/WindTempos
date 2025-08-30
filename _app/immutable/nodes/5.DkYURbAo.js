@@ -1,1 +1,0 @@
-import"../chunks/DsnmJJEf.js";import"../chunks/DsBtofbQ.js";import{f as r,a as p}from"../chunks/BSvvmB97.js";var t=r('<h1 class="funnel-display">Projects</h1>');function e(o){var a=t();p(o,a)}export{e as component};
