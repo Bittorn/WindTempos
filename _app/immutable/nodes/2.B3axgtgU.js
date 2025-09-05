@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/Dw4k9V_2.js";import{f as e,b as p,n as a}from"../chunks/MZEZCXk8.js";var n=e(`<h1 class="funnel-display">Homepage</h1> <p>This isn't complete yet, but when it is, it will KNOCK your SOCKS off</p>`,1);function s(t){var o=n();a(2),p(t,o)}export{s as component};
