@@ -1,0 +1,88 @@
+@use 'sass:color';
+
+$background-color: hsla(0, 0%, 35%, 0.1);
+$border-color: color.adjust($color: $background-color, $lightness: 50%);
+$gray-color: hsl(0, 0%, 65%);
+$hover-color: color.adjust($color: $background-color, $lightness: 20%);
+
+#card {
+	background-color: $background-color;
+    display: inline-block;
+
+	/* border & size */
+	border: 1px solid $border-color;
+	border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	width: 400px;
+    backdrop-filter: blur(8px);
+
+	/* center text */
+	text-align: center;
+    align-self: center;
+
+	/* font */
+	font-size: 15px;
+
+    &:hover {
+		background-color: $hover-color;
+		transition-duration: 0.1s;
+	}
+}
+
+.pointercursor {
+	cursor: pointer;
+}
+
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+
+	border-radius: 10px;
+	margin: 5px;
+
+    svg {
+        filter: invert(100%);
+    }
+}
+
+#usersection {
+	border: 1px solid $border-color;
+	border-radius: 10px;
+
+	display: inline-block;
+	margin: 0 auto;
+	padding-right: 10px;
+
+	text-align: center;
+	vertical-align: middle;
+
+    &:hover {
+		background-color: $hover-color;
+		transition-duration: 0.1s;
+	}
+}
+
+#owner {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#reponame {
+	display: inline-block;
+	vertical-align: middle;
+
+	padding-left: 10px;
+
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#additionalinfo {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+
+	margin-top: 5px;
+	color: $gray-color;
+}
