@@ -33,7 +33,7 @@
 		</svg>
 	</div>
 	<!--   * user section -->
-	<div id={styles.usersection} onclick={openUser} onkeydown={openRepo} role="button" tabindex="0">
+	<div id={styles.usersection} onclick={openUser} onkeydown={openUser} role="button" tabindex="0">
 		<img
 			id={styles.owneravatar}
 			width="40px"
