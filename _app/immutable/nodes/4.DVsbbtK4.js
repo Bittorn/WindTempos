@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/7f1KtJNq.js";import{f as t,b as r,n}from"../chunks/B-_Xg5iV.js";var e=t('<h1 class="funnel-display">Contact</h1> <p>Forward to an email address that actually like works or something</p>',1);function i(a){var o=e();n(2),r(a,o)}export{i as component};
