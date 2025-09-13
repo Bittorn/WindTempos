@@ -23,7 +23,7 @@ npm run build
 
 To preview the production build, use `npm run preview`.
 
-## Deploy
+## Deploying
 
 To deploy the SSR to GitHub Pages:
 
