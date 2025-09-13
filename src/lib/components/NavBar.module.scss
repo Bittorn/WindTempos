@@ -1,13 +1,13 @@
 @use 'sass:color';
 
-$background-color: hsla(0, 0%, 35%, 0.1);
-$border-color: color.adjust($color: $background-color, $lightness: 50%);
+$background-color: hsla(0, 0%, 10%, 0.6);
+$border-color: color.adjust($color: $background-color, $lightness: 10%);
 
 .navbar {
 	height: 60px;
 	width: 80vw;
 	margin: 0 auto;
-	margin-top: 65px;
+	margin-top: 45px;
 	padding-left: 1em;
 	padding-right: 1em;
 	box-sizing: border-box;
@@ -18,7 +18,7 @@ $border-color: color.adjust($color: $background-color, $lightness: 50%);
 	background-color: $background-color;
 	display: flex;
 	align-items: center;
-	justify-content: left;
+	justify-content: space-between;
 	position: relative;
 	z-index: 2;
 	backdrop-filter: blur(8px);
@@ -30,6 +30,19 @@ $border-color: color.adjust($color: $background-color, $lightness: 50%);
 
 		img {
 			width: 8rem;
+		}
+	}
+
+	.socials {
+		width: 12rem;
+
+		a {
+			padding: 4px;
+			filter: invert(61%) sepia(0%) saturate(0%) hue-rotate(26deg) brightness(91%) contrast(96%);
+
+			&:hover {
+				filter: invert(98%) sepia(20%) saturate(43%) hue-rotate(228deg) brightness(105%) contrast(80%);
+			}
 		}
 	}
 

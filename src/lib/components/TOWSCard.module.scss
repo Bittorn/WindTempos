@@ -41,8 +41,11 @@ $hover-color: color.adjust($color: $background-color, $lightness: 20%);
 	border-radius: 10px;
 	margin: 5px;
 
-    svg {
+    .github {
+		width: 42px;
+		height: 42px;
         filter: invert(100%);
+		align-self: center;
     }
 }
 
