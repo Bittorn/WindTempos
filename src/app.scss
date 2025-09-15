@@ -2,10 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
-$background-color: hsl(0, 0%, 10%);
+$background-color: hsla(0, 0%, 95%, 40%);
 $shadow-color: hsla(0, 0%, 10%, 10%);
-$font-color: hsl(0, 0%, 90%);
-$unselected-color: color.adjust($color: $font-color, $lightness: -35%);
+$font-color: hsl(0, 0%, 4%);
+$unselected-color: color.adjust($color: $font-color, $lightness: 40%);
 
 html {
 	background: $background-color;
@@ -98,6 +98,6 @@ a {
 	&:hover,
 	&.current {
 		color: $font-color;
-		transition-duration: 0.1s;
+		transition-duration: 0.2s;
 	}
 }

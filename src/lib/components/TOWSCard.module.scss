@@ -1,9 +1,9 @@
 @use 'sass:color';
 
-$background-color: hsla(0, 0%, 35%, 0.1);
-$border-color: color.adjust($color: $background-color, $lightness: 50%);
-$gray-color: hsl(0, 0%, 65%);
-$hover-color: color.adjust($color: $background-color, $lightness: 20%);
+$background-color: hsla(0, 0%, 100%, 0.6);
+$border-color: color.adjust($color: $background-color, $lightness: -20%);
+$gray-color: hsl(0, 0%, 44%);
+$hover-color: color.adjust($color: $background-color, $lightness: -5%);
 
 #card {
 	background-color: $background-color;
@@ -44,7 +44,6 @@ $hover-color: color.adjust($color: $background-color, $lightness: 20%);
     .github {
 		width: 42px;
 		height: 42px;
-        filter: invert(100%);
 		align-self: center;
     }
 }

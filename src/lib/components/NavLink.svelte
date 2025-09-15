@@ -5,9 +5,10 @@
 	interface NavLinkInterface {
 		children: Snippet;
 		href: string;
+		[key: string]: any; // for all other properties
 	}
 
-	let { href, children }: NavLinkInterface = $props();
+	let { href, children, ...rest }: NavLinkInterface = $props();
 
 	let selected = () => {
 		// stupid fix for '/'
@@ -17,4 +18,4 @@
 	};
 </script>
 
-<li><a {href} class={selected()}>{@render children()}</a></li>
+<li><a {href} class={selected()} {...rest}>{@render children()}</a></li>
