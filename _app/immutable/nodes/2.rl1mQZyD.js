@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/BfhMVH8j.js";import{f as e,b as p,n as t}from"../chunks/CoRGlRD5.js";var m=e('<h1 class="funnel-display">Homepage</h1> <p>Put a cool image here of the company logo</p>',1);function s(o){var a=m();t(2),p(o,a)}export{s as component};
