@@ -15,6 +15,6 @@
 
 {@render children?.()}
 
-<footer>
+<!-- <footer>
 	<a href="https://github.com/Bittorn/">Made by a certified brainlet</a>
-</footer>
+</footer> -->

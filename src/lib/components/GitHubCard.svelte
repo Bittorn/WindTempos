@@ -1,9 +1,17 @@
 <script lang="ts">
-	import styles from './TOWSCard.module.scss';
+	import styles from './GitHubCard.module.scss';
 	import githubIcon from '$lib/assets/github-icon.svg'
 
-	let repo = 'https://github.com/Bittorn/TOWS-Client';
-	let user = 'https://github.com/Bittorn';
+	const user = 'https://github.com/Bittorn';
+
+	interface GitHubCardInterface {
+		name: string;
+		description: string;
+		license: string;
+		repo: string;
+	}
+
+	let { name, description, license, repo }: GitHubCardInterface = $props();
 
 	function openRepo() {
 		window.open(repo);
@@ -46,10 +54,9 @@
 		<div id={styles.owner}>Bittorn</div>
 	</div>
 	<!--   * repository name -->
-	<div id={styles.reponame}>TOWS-Client</div>
-	<p id={styles.description}>Client mod for Tales of Wayward Stars</p>
-	<div id={styles.topics}></div>
+	<div id={styles.reponame}>{name}</div>
+	<p id={styles.description}>{description}</p>
 	<div id={styles.additionalinfo}>
-		<div id={styles.license}>Creative Commons Zero v1.0 Universal</div>
+		<div id={styles.license}>{license}</div>
 	</div>
 </div>
