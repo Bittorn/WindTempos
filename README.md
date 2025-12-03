@@ -1,6 +1,6 @@
 # Wind Tempos
 
-Rpository for Wind Tempos website.
+Repository for Wind Tempos website.
 
 ## Developing
 
