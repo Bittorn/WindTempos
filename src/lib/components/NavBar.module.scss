@@ -1,6 +1,6 @@
 @use 'sass:color';
 
-$navbar-color: hsla(0, 0%, 100%, 0.6);
+$navbar-color: hsla(0, 0%, 100%, 0.8);
 $navbar-border-color: color.adjust(
 	$color: $navbar-color,
 	$lightness: 10%

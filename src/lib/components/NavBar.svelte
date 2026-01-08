@@ -27,8 +27,8 @@
 		<ul class={styles.nav__links}>
 			<NavLink href="/">Home</NavLink>
 			<NavLink href="/about">About</NavLink>
-			<NavLink href="/tows">TOWS</NavLink>
 			<NavLink href="/projects">Projects</NavLink>
+			<NavLink href="/shaymin">Shaymin</NavLink>
 			<NavLink href="/contact">Contact</NavLink>
 		</ul>
 		<div class="{styles.socials} {styles.nav__links}">
@@ -47,7 +47,7 @@
 	<div class={styles.overlay__content}>
 		<NavLink href="/" onclick={closeMenu}>Home</NavLink>
 		<NavLink href="/about" onclick={closeMenu}>About</NavLink>
-		<NavLink href="/tows" onclick={closeMenu}>TOWS</NavLink>
+		<NavLink href="/shaymin" onclick={closeMenu}>Shaymin</NavLink>
 		<NavLink href="/projects" onclick={closeMenu}>Projects</NavLink>
 		<NavLink href="/contact" onclick={closeMenu}>Contact</NavLink>
 	</div>

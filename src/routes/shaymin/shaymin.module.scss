@@ -1,0 +1,34 @@
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
+.center {
+	width: 16rem;
+	display: block;
+	margin: auto;
+	image-rendering: pixelated;
+	border-radius: 2rem;
+	margin-top: 6rem;
+	margin-bottom: -4rem;
+}
+
+.intro {
+	margin: -1rem;
+	margin-top: -8rem;
+	padding: 6rem 2rem 2rem;
+	background-color: #161616;
+	color: whitesmoke;
+}
+
+.changelog {
+	padding-bottom: 4rem;
+}
+
+.download {
+	margin: -1rem -1rem;
+	border-top-left-radius: 10rem;
+	border-top-right-radius: 10rem;
+	padding-top: 0.5rem;
+	padding-bottom: 6rem;
+	background-image: linear-gradient(to bottom right, rgb(255, 208, 182), rgb(255, 189, 255), #96d3ff);
+}

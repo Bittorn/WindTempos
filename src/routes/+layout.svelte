@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>Wind Tempos 🚧</title>
+	<title>Wind Tempos</title>
 </svelte:head>
 
 <NavBar />
