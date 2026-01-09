@@ -13,7 +13,14 @@
 <div class={styles.intro}>
 	<img src={shayminIcon} alt="Shaymin logo" class={styles.center} />
 	<h1 class="zain-extrabold">Shaymin</h1>
-	<h2>A Multiplayer Cobblemon server run in Australia</h2>
+	<h2>A Cobblemon server run in Australia</h2>
+</div>
+
+<div class={styles.links}>
+	<ul class="zain-regular">
+		<li><a href="./rules">Rules</a></li>
+		<li><a href="./league">League</a></li>
+	</ul>
 </div>
 
 <div class={styles.changelog}>
