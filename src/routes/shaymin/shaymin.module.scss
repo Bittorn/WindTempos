@@ -2,6 +2,13 @@ body {
   overflow-x: hidden; /* Hide scrollbars */
 }
 
+hr {
+	width: 12rem;
+	margin-bottom: -1rem;
+	margin-top: -1rem;
+	color: rgba(0, 0, 0, 0.2);
+}
+
 .center {
 	width: 16rem;
 	display: block;
@@ -13,7 +20,7 @@ body {
 }
 
 .intro {
-	margin: -1rem;
+	margin: -8px;
 	margin-top: -8rem;
 	padding: 6rem 2rem 2rem;
 	background-color: #161616;
@@ -25,10 +32,18 @@ body {
 }
 
 .download {
-	margin: -1rem -1rem;
+	margin: -8px -1rem;
 	border-top-left-radius: 10rem;
 	border-top-right-radius: 10rem;
 	padding-top: 0.5rem;
-	padding-bottom: 6rem;
-	background-image: linear-gradient(to bottom right, rgb(255, 208, 182), rgb(255, 189, 255), #96d3ff);
+	padding-bottom: 12rem;
+	background-image: linear-gradient(to bottom right, rgb(255, 208, 182), rgb(255, 189, 255), rgb(150, 211, 255));
+
+	h2 {
+		font-size: 32px;
+	}
+
+	a:hover {
+		font-size: 1.01rem;
+	}
 }

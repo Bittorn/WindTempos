@@ -13,7 +13,7 @@
 <div class={styles.intro}>
 	<img src={shayminIcon} alt="Shaymin logo" class={styles.center} />
 	<h1 class="zain-extrabold">Shaymin</h1>
-	<h2>A Multiplayer Cobblemon experience, but good</h2>
+	<h2>A Multiplayer Cobblemon server run in Australia</h2>
 </div>
 
 <div class={styles.changelog}>
@@ -48,6 +48,14 @@
 
 <div class={styles.download}>
 	<h1 class="zain-extrabold">IP: mon.windtempos.com</h1>
-	<h2 class="zain-bold" style="font-size: 32px;">Download the modpack from GitHub!</h2>
+	<h2 class="zain-bold">Download directly</h2>
+	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v1.0.0/Shaymin-1.0.0_PrismLauncher.zip">Shaymin 1.0.0 for PrismLauncher (Recommended)</a></p>
+	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v1.0.0/Shaymin-1.0.0_Modrinth.zip">Shaymin 1.0.0 for Modrinth</a></p>
+	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v1.0.0/Shaymin-1.0.0_CurseForge.zip">Shaymin 1.0.0 for Curseforge</a></p>
+	<br>
+	<hr>
+	<p class="zain-regular-italic" style="font-size: 20px;">or</p>
+	<hr>
+	<h2 class="zain-bold">Download from GitHub!</h2>
 	<GitHubCard {name} {description} {license} {repo}></GitHubCard>
 </div>
