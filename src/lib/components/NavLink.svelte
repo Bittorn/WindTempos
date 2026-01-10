@@ -15,6 +15,7 @@
 		if (page.url.pathname == href && href == '/') return 'current';
 		// the actual good code
 		return page.url.pathname == href + '/' ? 'current' : '';
+		// TODO: Allow for pages on children to be marked as current
 	};
 </script>
 

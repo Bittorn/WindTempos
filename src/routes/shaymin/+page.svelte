@@ -19,11 +19,11 @@
 <div class={styles.links}>
 	<ul class="zain-regular">
 		<li><a href="./rules">Rules</a></li>
-		<li><a href="./league">League</a></li>
+		<li><a href="https://docs.google.com/document/d/1bdppUSFltjYLHuNwIqcoyBi82M0KkOWMBSH0a4qtv68" target="_blank">League</a></li>
 	</ul>
 </div>
 
-<div class={styles.changelog}>
+<div class="{styles.changelog} zain">
 	<h1 class="zain-bold">What's Changed Since Beta?</h1>
 	<h2 class="zain-bold">Notable Updates</h2>
 	<p>Updated Cobblemon to 1.7</p>
