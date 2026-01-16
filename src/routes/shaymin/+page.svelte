@@ -60,9 +60,7 @@
 	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v1.0.0/Shaymin-1.0.0_Modrinth.zip">Shaymin 1.0.0 for Modrinth</a></p>
 	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v1.0.0/Shaymin-1.0.0_CurseForge.zip">Shaymin 1.0.0 for Curseforge</a></p>
 	<br>
-	<hr>
 	<p class="zain-regular-italic" style="font-size: 20px;">or</p>
-	<hr>
 	<h2 class="zain-bold">Download from GitHub!</h2>
 	<GitHubCard {name} {description} {license} {repo}></GitHubCard>
 </div>
