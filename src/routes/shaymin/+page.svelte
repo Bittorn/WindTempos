@@ -19,6 +19,7 @@
 <div class={styles.links}>
 	<ul class="zain-regular">
 		<li><a href="./rules">Rules</a></li>
+		<li><a href="/shaymin/docs">Documentation</a></li>
 		<li><a href="https://docs.google.com/document/d/1bdppUSFltjYLHuNwIqcoyBi82M0KkOWMBSH0a4qtv68" target="_blank">League</a></li>
 	</ul>
 </div>

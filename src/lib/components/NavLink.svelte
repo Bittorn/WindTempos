@@ -5,7 +5,7 @@
 	interface NavLinkInterface {
 		children: Snippet;
 		href: string;
-		[key: string]: any; // for all other properties
+		[key: string]: unknown;
 	}
 
 	let { href, children, ...rest }: NavLinkInterface = $props();
@@ -13,9 +13,14 @@
 	let selected = () => {
 		// stupid fix for '/'
 		if (page.url.pathname == href && href == '/') return 'current';
-		// the actual good code
-		return page.url.pathname == href + '/' ? 'current' : '';
-		// TODO: Allow for pages on children to be marked as current
+		else if (href == '/') return '';
+
+		// the actual semi-decent code
+		if (page.url.pathname.includes(href)) {
+			return 'current';
+		} else {
+			return '';
+		}
 	};
 </script>
 
