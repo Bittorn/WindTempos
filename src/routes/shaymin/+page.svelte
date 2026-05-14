@@ -26,7 +26,8 @@
 <div class="{styles.changelog} zain">
 	<h1 class="zain-bold">Current Status</h1>
 	<p>
-		Shaymin Cobblemon is currently being upgraded to 2.0.
+		Shaymin Cobblemon is being upgraded to version 2.0 and is currently <b>not available</b>.<br>
+		Apologies for the inconvenience.
 	</p>
 </div>
 
