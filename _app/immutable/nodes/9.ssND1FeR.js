@@ -1,1 +1,0 @@
-import"../chunks/DsnmJJEf.js";import"../chunks/CqnDUdUg.js";import{f as a,b as m,n as e}from"../chunks/CgN7mcdW.js";var n=a('<h1 class="zain-bold">Custom mods</h1> <h3 class="zain-bold" style="margin-top: -2rem; margin-bottom: 4rem">Last updated May 13th, 2026</h3> <p>Custom mods have not yet been implemented.</p>',1);function i(t){var o=n();e(4),m(t,o)}export{i as component};
