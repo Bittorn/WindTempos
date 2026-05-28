@@ -24,21 +24,19 @@
 </div>
 
 <div class="{styles.changelog} zain">
-	<h1 class="zain-bold">Current Status</h1>
+	<h1 class="zain-bold">2.0 update</h1>
 	<p>
-		Shaymin Cobblemon is being upgraded to version 2.0 and is currently <b>not available</b>.<br>
-		Apologies for the inconvenience.
+		Shaymin Cobblemon has been rewritten from the ground up to ensure better performance, more stability, and better balance for all players!
 	</p>
 </div>
 
 <div class={styles.download}>
 	<h1 class="zain-extrabold">IP: mon.windtempos.com</h1>
-	<!-- <h2 class="zain-bold">Download directly</h2>
-	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v1.0.0/Shaymin-1.0.0_PrismLauncher.zip">Shaymin 1.0.0 for PrismLauncher (Recommended)</a></p>
-	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v1.0.0/Shaymin-1.0.0_Modrinth.zip">Shaymin 1.0.0 for Modrinth</a></p>
-	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v1.0.0/Shaymin-1.0.0_CurseForge.zip">Shaymin 1.0.0 for Curseforge</a></p>
+	<h2 class="zain-bold">Download directly</h2>
+	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v2.0.0/Shaymin_Cobblemon-2.0.0-Modrinth.mrpack">Shaymin Cobblemon 2.0.0 for Modrinth</a></p>
+	<p><a href="https://github.com/Bittorn/Shaymin/releases/download/v2.0.0/Shaymin_Cobblemon-2.0.0-CurseForge.zip">Shaymin Cobblemon 2.0.0 for Curseforge</a></p>
 	<br>
-	<p class="zain-regular-italic" style="font-size: 20px;">or</p> -->
+	<p class="zain-regular-italic" style="font-size: 20px;">or</p>
 	<h2 class="zain-bold">Download from GitHub!</h2>
 	<GitHubCard {name} {description} {license} {repo}></GitHubCard>
 </div>
