@@ -10,10 +10,12 @@
 	const license = '';
 </script>
 
-<div class={styles.intro}>
+<div class={styles.introdiv}>
+	<span class={styles.intro}>
 	<img src={shayminIcon} alt="Shaymin logo" class={styles.center} />
 	<h1 class="zain-extrabold">Shaymin Cobblemon</h1>
 	<h2>A Cobblemon server run in Australia</h2>
+	</span>
 </div>
 
 <div class={styles.links}>

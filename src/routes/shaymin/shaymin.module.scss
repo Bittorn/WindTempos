@@ -1,5 +1,9 @@
 body {
-  overflow-x: hidden; /* Hide scrollbars */
+	overflow-x: hidden; /* Hide scrollbars */
+	background-color: #161616;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
 hr {
@@ -19,12 +23,18 @@ hr {
 	margin-bottom: -4rem;
 }
 
-.intro {
+.introdiv {
 	margin: -8px;
 	margin-top: -8rem;
 	padding: 6rem 2rem;
 	margin-bottom: -6rem;
 	background-color: #161616;
+	background-image: url('$lib/assets/shaymin-background-blur.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.intro {
 	color: whitesmoke;
 
 	h1 {
@@ -54,7 +64,7 @@ hr {
 
 			a {
 				padding: 0.25em 1em 0.25em 1em;
-				font-size: large
+				font-size: large;
 			}
 		}
 	}
@@ -62,6 +72,8 @@ hr {
 
 .changelog {
 	padding-bottom: 4rem;
+	color: whitesmoke;
+	font-size-adjust: 0.58;
 }
 
 .download {
@@ -70,7 +82,12 @@ hr {
 	border-top-right-radius: 10rem;
 	padding-top: 0.5rem;
 	padding-bottom: 12rem;
-	background-image: linear-gradient(to bottom right, rgb(255, 208, 182), rgb(255, 189, 255), rgb(150, 211, 255));
+	background-image: linear-gradient(
+		to bottom right,
+		rgb(255, 208, 182),
+		rgb(255, 189, 255),
+		rgb(150, 211, 255)
+	);
 
 	h2 {
 		font-size: 32px;
