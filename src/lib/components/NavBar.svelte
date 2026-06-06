@@ -5,7 +5,7 @@
 	import NavLink from './NavLink.svelte';
 	import styles from './NavBar.module.scss';
 
-	const discordLink = 'https://discord.gg/FHbCJDx4';
+	const discordLink = 'https://discord.gg/eYDzdQGdJ4';
 	const githubLink = 'https://github.com/Bittorn/WindTempos';
 
 	var overlay: HTMLDivElement;
